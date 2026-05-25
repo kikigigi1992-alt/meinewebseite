@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tradingpsychologie. Anders. | Trading meets Nervensystem</title>
+  <meta name="description" content="Nervensystem-Regulation für Trader. Beende das impulsive Handeln durch die Verbindung von Marktanalytik und neuronaler Selbstregulation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .cta-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .cta-visual {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+    }
+    .cta-visual blockquote {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.8;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    .cta-visual cite {
+      font-size: 0.78rem;
+      color: var(--teal-light);
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .cta-visual cite::before {
+      content: '';
+      width: 24px; height: 1.5px;
+      background: var(--teal-light);
+    }
+    @media (max-width: 768px) {
+      .cta-split { grid-template-columns: 1fr; }
+      .cta-visual { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-main">Trading meets Nervensystem</span>
+      <span class="logo-sub">by Kristina</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="coaching.html">Coaching</a></li>
+      <li><a href="beratung.html">Beratung</a></li>
+      <li><a href="about.html">Über mich</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-teal btn-sm nav-cta">Coaching buchen</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav-mobile" id="nav-mobile">
+  <a href="index.html">Home</a>
+  <a href="coaching.html">Coaching</a>
+  <a href="beratung.html">Beratung</a>
+  <a href="about.html">Über mich</a>
+  <a href="contact.html">Kontakt</a>
+  <a href="contact.html" class="btn btn-teal" style="margin-top:8px;justify-content:center;">Coaching buchen</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Tradingpsychologie.<br>
+          <span class="accent">Anders.</span>
+        </h1>
+        <p class="hero-desc">
+          Beende das impulsive Handeln und den Stresskreislauf. Erreiche profitable Beständigkeit durch die Verbindung von Marktanalytik und neuronaler Selbstregulation.
+        </p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-teal btn-lg">Coaching buchen <span class="arrow">→</span></a>
+          <a href="angebote.html" class="btn btn-ghost-white btn-lg">Mehr erfahren</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-image">
+          <!-- Ersetze src mit deinem eigenen Foto -->
+          <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=600&q=80" alt="Kristina – Trading Coach" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid" style="grid-template-columns:repeat(3,1fr);">
+      <div class="stat-item fade-up">
+        <div class="stat-number"><span class="counter" data-target="10">0</span><span class="plus">+</span></div>
+        <div class="stat-label">Jahre Markterfahrung</div>
+      </div>
+      <div class="stat-item fade-up">
+        <div class="stat-number">4</div>
+        <div class="stat-label">Coaching-Methoden</div>
+      </div>
+      <div class="stat-item fade-up" style="border-right:none;">
+        <div class="stat-number"><span class="counter" data-target="500">0</span><span class="plus">+</span></div>
+        <div class="stat-label">Begleitete Klienten</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<section class="services-section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <p class="label">Angebote</p>
+      <h2>So kann ich dir helfen</h2>
+      <p>Individuelle Begleitung auf deinem Weg zu emotionaler Freiheit und technischer Präzision im Trading.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <div class="service-icon">💬</div>
+        <h3>1:1 Beratung</h3>
+        <p>Fokussierte Einzelsessions zur Lösung akuter Blockaden oder Optimierung deines Trading-Setups aus psychologischer Sicht.</p>
+        <ul class="service-list">
+          <li>Akute Stressbewältigung</li>
+          <li>Einstündige Power-Sitzung</li>
+          <li>Sofort umsetzbare Strategien</li>
+        </ul>
+        <a href="beratung.html" class="service-link">Termin finden <span class="arrow">→</span></a>
+      </div>
+      <div class="service-card featured fade-up">
+        <div class="service-icon">🎯</div>
+        <h3>1:1 Coaching</h3>
+        <p>Intensive, mehrwöchige Begleitung zur Dekodierung deiner Handelsmuster und Aufbau eines regulierten Nervensystems.</p>
+        <ul class="service-list">
+          <li>Deep-Dive in Triggerpunkte</li>
+          <li>Maßgeschneiderte SOS-Tools</li>
+          <li>Wöchentliche Live-Sessions</li>
+        </ul>
+        <a href="coaching.html" class="service-link">Details ansehen <span class="arrow">→</span></a>
+      </div>
+      <div class="service-card fade-up">
+        <div class="service-icon">👥</div>
+        <h3>Gruppenworkshops</h3>
+        <p>Gemeinsames Lernen und Wachsen. Profitiere vom Austausch mit anderen Tradern in einem geschützten Rahmen.</p>
+        <ul class="service-list">
+          <li>Wöchentliche Impulse</li>
+          <li>Community-Support</li>
+          <li>Live Trading-Analyse</li>
+        </ul>
+        <a href="angebote.html" class="service-link">Aktuelle Termine <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS (6) ===== -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-header center fade-up">
+      <p class="label">Erfahrungen</p>
+      <h2>Das sagen bisherige Kundinnen &amp; Kunden</h2>
+      <p>Echte Erfolgsgeschichten von Menschen, die den Weg der Regulation gewählt haben.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="testimonial-text">"Endlich verstehe ich, warum ich immer wieder dieselben Fehler gemacht habe. Die Tools zur Regulation haben mein Trading komplett verändert."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">MH</div>
+          <div><div class="author-name">Marcus H.</div><div class="author-role">Daytrader · DAX &amp; Forex</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="testimonial-text">"Kristina hat eine Gabe, komplexe neuronale Prozesse so zu erklären, dass man sie sofort im Live-Markt anwenden kann. Unbezahlbar."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">SK</div>
+          <div><div class="author-name">Sarah K.</div><div class="author-role">Vollzeit-Traderin</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="testimonial-text">"Mein Drawdown hat sich drastisch reduziert, seit ich gelernt habe, meinen Stress-Level proaktiv zu steuern. Eine absolute Empfehlung!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">TB</div>
+          <div><div class="author-name">Thomas B.</div><div class="author-role">Kryptomarkt-Investor</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="testimonial-text">"Seit ich mit Kristina arbeite, habe ich endlich eine Morgenroutine, die mein Nervensystem vor dem Trading kalibriert. Meine Entscheidungen sind seitdem messbar klarer."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">AM</div>
+          <div><div class="author-name">Anna M.</div><div class="author-role">Forex-Traderin</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="testimonial-text">"Die Kombination aus NLP und Nervensystem-Arbeit hat mir geholfen, meine Verlustangst zu überwinden. Nach zwei Monaten trade ich endlich nach meinem System."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">MS</div>
+          <div><div class="author-name">Michael S.</div><div class="author-role">Aktien-Trader</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="testimonial-text">"Ich hätte nie gedacht, dass Körperarbeit im Trading so viel ausmacht. Die Techniken funktionieren auch in den stressigsten Marktphasen zuverlässig."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">LW</div>
+          <div><div class="author-name">Lisa W.</div><div class="author-role">Krypto-Traderin</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT TEASER ===== -->
+<section class="about-teaser">
+  <div class="container">
+    <div class="about-teaser-grid">
+      <div class="about-image-stack">
+        <img class="about-img-main" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&q=80" alt="Coaching" loading="lazy">
+        <img class="about-img-accent" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=300&q=80" alt="Berge" loading="lazy">
+      </div>
+      <div class="about-content fade-up">
+        <p class="label">Über mich</p>
+        <h2>Außerhalb<br>des Bildschirms</h2>
+        <div class="about-quote">
+          <blockquote>"Echte Performance entsteht nicht im Chart, sondern im Nervensystem. Nur wer seine biologische Reaktion auf Risiko versteht, kann langfristig profitabel bleiben."</blockquote>
+          <cite>— Kristina</cite>
+        </div>
+        <ul class="about-list">
+          <li><span class="icon">🏔️</span>In den Alpen beim Bergsteigen</li>
+          <li><span class="icon">📚</span>Mit einem Buch über Neurobiologie</li>
+          <li><span class="icon">☕</span>Auf der Suche nach dem perfekten Espresso</li>
+        </ul>
+        <a href="about.html" class="btn btn-primary">Mehr über mich <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== IMAGE CTA ===== -->
+<section class="img-cta">
+  <img class="img-cta-bg" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&q=80" alt="">
+  <div class="img-cta-content fade-up">
+    <h2>Bereit zu verstehen, was wirklich<br>hinter deinen Mustern steckt?</h2>
+    <p>Nicht mehr Strategie. Nicht mehr Disziplin.</p>
+    <a href="contact.html" class="btn btn-teal btn-lg">Coaching buchen <span class="arrow">→</span></a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-main">Trading meets Nervensystem</div>
+        <div class="logo-sub">by Kristina</div>
+        <p>Profitabel handeln durch innere Stabilität.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <a href="index.html">Home</a>
+        <a href="about.html">Über mich</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
+      <div class="footer-col">
+        <h5>Angebote</h5>
+        <a href="coaching.html">1:1 Coaching</a>
+        <a href="beratung.html">1:1 Beratung</a>
+      </div>
+      <div class="footer-col">
+        <h5>Rechtliches</h5>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 tradingmeetsnervensystem.de · Alle Rechte vorbehalten</p>
+      <div class="footer-bottom-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
